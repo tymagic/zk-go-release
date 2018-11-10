@@ -1,0 +1,7 @@
+zookeeper:
+  ip:192.168.1.34
+  port:9090
+filter:
+  - password
+
+

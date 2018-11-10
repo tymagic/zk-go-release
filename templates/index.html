@@ -1,0 +1,89 @@
+{{ define  "index.tmpl" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ImitateEditor</title>
+    <style>
+
+        #text2 {
+            width: 800px;
+            background-color: white;
+            height: 600px;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            color: black;
+            font-size: 16px;
+            margin 0 auto;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	
+</head>
+<body>
+<H2 style="padding: 20px 100px">ZK配置查询</H1>
+<div style="padding: 20px 100px">
+	<form class="bs-example bs-example-form" role="form">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="input-group">
+					<input type="text" class="form-control" id="inputs">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button" id="send">
+							Go!
+						</button>
+					</span>
+				</div><!-- /input-group -->
+			</div><!-- /.col-lg-6 -->
+		</div><!-- /.row -->
+        <input id="hiddenText" type="text" style="display:none" /> <!-- 隐藏文本框防止自动提交刷新-->
+
+    </form>
+</div>
+<div style="padding: 20px 100px">
+	<textarea type="text" id="text2" class="text"></textarea>
+</div>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="Stastic/custom-imitate-editor/jquery.custom.imitate.editor-v1.0.js"></script>
+<script>
+    $("#inputs").keydown(function(e) {
+        if (e.keyCode == 13) {
+            $('#send').click()
+        }
+    });
+
+
+    $("#text2").initTextarea();
+    $('#send').click(function(e){
+        e.preventDefault();  //阻止默认提交
+        var command = $("#inputs").val(); // 注意，jquery筛选一定加引号，否则报错uncaught
+        $.ajax({
+            url: "http://127.0.0.1:8090/zkgo",
+            type: "POST",
+            data: {
+                "location": command,
+            },
+            success: function(res) {  //res是server端响应
+                if (res["OK"] == true) {
+                    var result = (res["message"]["values"])
+                    var end=""
+                    $.each(result, function(i,el){
+                        result[i]=(el)+"\n"
+                        end+=result[i]
+                    });
+                    $("#text2").val(end);
+                }
+                else {
+                    $("#text2").val("查询失败，请检查输入");
+                }
+            }})
+    });
+
+</script>
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+{{ end }}
