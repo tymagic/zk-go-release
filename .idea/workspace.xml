@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53efcef2-9bd2-48ae-8262-f710749d6cff" name="Default Changelist" comment="" />
+    <list default="true" id="53efcef2-9bd2-48ae-8262-f710749d6cff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -353,6 +356,38 @@
             <path>
               <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
               <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="gin-contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="gin-gonic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="samuel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
