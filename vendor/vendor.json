@@ -1,6 +1,73 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"checksumSHA1": "BhMowD2DIKSd9qq8Pzh7Y3mh2/w=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
+			"revisionTime": "2017-01-09T09:34:21Z"
+		},
+		{
+			"checksumSHA1": "B85WZhpFQJuw62XSTjSg9P76CSQ=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "834a2ec64ca1ce077e4bdeb5edec019df1c01e71",
+			"revisionTime": "2018-09-26T05:49:11Z"
+		},
+		{
+			"checksumSHA1": "PdMVECLklr59OFBSyqkdeunN/vM=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "834a2ec64ca1ce077e4bdeb5edec019df1c01e71",
+			"revisionTime": "2018-09-26T05:49:11Z"
+		},
+		{
+			"checksumSHA1": "gEtlV34SWTL6eC3N9E5bT/4+FsY=",
+			"path": "github.com/gin-gonic/gin/internal/json",
+			"revision": "834a2ec64ca1ce077e4bdeb5edec019df1c01e71",
+			"revisionTime": "2018-09-26T05:49:11Z"
+		},
+		{
+			"checksumSHA1": "TMfLOtBH10EzOsnRJlIYOG3N+DM=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "834a2ec64ca1ce077e4bdeb5edec019df1c01e71",
+			"revisionTime": "2018-09-26T05:49:11Z"
+		},
+		{
+			"checksumSHA1": "QAkNjOBhTJtSf//VJaL4I+E6WPA=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "7716a980bceefe9a0213654823d9ea62d23b87a2",
+			"revisionTime": "2018-09-19T22:46:59Z"
+		},
+		{
+			"checksumSHA1": "LkbotKu3JQxXEZZ9P40yhnFOycY=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "3fb116b820352b7f0c281308a4d6250c22d94e27",
+			"revisionTime": "2018-08-30T10:17:45Z"
+		},
+		{
+			"checksumSHA1": "FYGiySZ93ImF1UyFT++YjMEMXWY=",
+			"path": "github.com/samuel/go-zookeeper/zk",
+			"revision": "c4fab1ac1bec58281ad0667dc3f0907a9476ac47",
+			"revisionTime": "2018-01-30T19:37:22Z"
+		},
+		{
+			"checksumSHA1": "1yx9tYGAaWHTklTCsXHKtUwPCA8=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "2c86ab75771cd005aba08da133ce0565a19c2587",
+			"revisionTime": "2018-09-20T20:00:43Z"
+		},
+		{
+			"checksumSHA1": "q190bL03wQok3wVwYmMub2XhOiU=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f1438d3fca68893a817e4a66806cea46a9e4ebf",
+			"revisionTime": "2017-07-30T05:02:35Z"
+		},
+		{
+			"checksumSHA1": "d3jYBfW+YmOxsa5o8m6XyywVbIo=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "5420a8b6744d3b0345ab293f6fcba19c978f1183",
+			"revisionTime": "2018-03-28T19:50:20Z"
+		}
+	],
 	"rootPath": "zk-go-release"
 }

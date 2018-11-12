@@ -29,10 +29,10 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="input-group">
-					<input type="text" class="form-control" id="inputs">
+					<input type="text" class="form-control" id="inputs" autocomplete="off" placeholder="示例：/biz/t8t-prs-mpm/app/config/log/default">
 					<span class="input-group-btn">
 						<button class="btn btn-default" type="button" id="send">
-							Go!
+							查询
 						</button>
 					</span>
 				</div><!-- /input-group -->
@@ -53,14 +53,12 @@
             $('#send').click()
         }
     });
-
-
     $("#text2").initTextarea();
     $('#send').click(function(e){
         e.preventDefault();  //阻止默认提交
         var command = $("#inputs").val(); // 注意，jquery筛选一定加引号，否则报错uncaught
         $.ajax({
-            url: "http://127.0.0.1:8090/zkgo",
+            url: "http://127.0.0.1:8001/zkgo",
             type: "POST",
             data: {
                 "location": command,
@@ -72,6 +70,7 @@
                     $.each(result, function(i,el){
                         result[i]=(el)+"\n"
                         end+=result[i]
+
                     });
                     $("#text2").val(end);
                 }

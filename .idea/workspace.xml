@@ -2,8 +2,191 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53efcef2-9bd2-48ae-8262-f710749d6cff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-contrib/sse/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-contrib/sse/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-contrib/sse/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-contrib/sse/sse-decoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-contrib/sse/sse-decoder_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-contrib/sse/sse-encoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-contrib/sse/sse_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-contrib/sse/writer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/AUTHORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/BENCHMARKS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/auth_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/benchmarks_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/binding.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/binding_body_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/binding_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/default_validator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/form.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/form_mapping.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/msgpack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/protobuf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/query.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/validate_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/binding/xml.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/codecov.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context_17.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context_17_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context_appengine.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/context_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/coverage.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/debug.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/debug_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/deprecated.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/deprecated_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/errors_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/app-engine/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/app-engine/app.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/app-engine/hello.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/assets-in-binary/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/assets-in-binary/assets.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/assets-in-binary/html/bar.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/assets-in-binary/html/index.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/assets-in-binary/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/auto-tls/example1/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/auto-tls/example2/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/basic/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/basic/main_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/custom-validation/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/favicon/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/favicon/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/graceful-shutdown/close/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/graceful-shutdown/graceful-shutdown/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/grpc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/grpc/gin/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/grpc/grpc/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/grpc/pb/helloworld.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/grpc/pb/helloworld.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http-pusher/assets/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http-pusher/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http-pusher/testdata/ca.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http-pusher/testdata/server.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http-pusher/testdata/server.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http2/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http2/testdata/ca.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http2/testdata/server.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/http2/testdata/server.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/multiple-service/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/resources/room_login.templ.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/resources/static/epoch.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/resources/static/epoch.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/resources/static/prismjs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/resources/static/prismjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/resources/static/realtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/rooms.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/routes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-advanced/stats.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-chat/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-chat/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-chat/rooms.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/realtime-chat/template.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/struct-lvl-validations/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/struct-lvl-validations/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/template/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/upload-file/multiple/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/upload-file/multiple/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/upload-file/single/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/examples/upload-file/single/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/fs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/gin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/ginS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/ginS/gins.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/gin_integration_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/gin_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/githubapi_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/internal/json/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/internal/json/jsoniter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/logger_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/middleware_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/mode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/mode_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/path.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/path_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/recovery.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/recovery_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/data.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/html.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/json_17.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/msgpack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/protobuf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/reader.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/redirect.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/render.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/render_17_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/render_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/text.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/xml.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/render/yaml.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/response_writer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/response_writer_1.7.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/response_writer_1.8.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/response_writer_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routergroup.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routergroup_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/routes_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/test_helpers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/testdata/certificate/cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/testdata/certificate/key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/testdata/protoexample/test.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/testdata/protoexample/test.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/testdata/template/hello.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/testdata/template/raw.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/tree.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/tree_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/utils_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/vendor/vendor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/version.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gin-gonic/gin/wercker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/examples/basic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/cluster_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/conn_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/constants.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/constants_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/dnshostprovider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/dnshostprovider_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/flw.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/flw_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/lock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/lock_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/server_help.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/server_java.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/structs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/structs_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/throttle_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/util_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/samuel/go-zookeeper/zk/zk_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/vendor.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,10 +320,12 @@
     <session id="1029869792">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -163,16 +348,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="51" />
-          <entry key="html" value="466" />
+          <entry key="go" value="57" />
+          <entry key="html" value="519" />
           <entry key="yml" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="51" />
-          <entry key="HTML" value="466" />
+          <entry key="Go" value="57" />
+          <entry key="HTML" value="519" />
           <entry key="YAML" value="131" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1325924959">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -183,28 +396,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="73" column="43" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="43" />
-              <folding>
-                <element signature="e#14#178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/cfg.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/recovery.go">
+        <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/recovery.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="902">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
@@ -231,7 +432,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/render/html.go">
+        <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/render/html.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1254">
               <caret line="60" selection-start-line="60" selection-end-line="60" />
@@ -240,7 +441,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go">
+        <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/context.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2002">
               <caret line="107" selection-start-line="107" selection-end-line="107" />
@@ -260,10 +461,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="333">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="104" column="24" lean-forward="true" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
               <folding>
-                <element signature="e#1111#1131#0#HTML" expanded="true" />
+                <element signature="e#14#178#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -293,6 +503,7 @@
       <find>log</find>
       <find>888</find>
       <find>return</find>
+      <find>8090</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
@@ -306,12 +517,12 @@
         <option value="G:/practice/1.go" />
         <option value="G:/practice/rountine.go" />
         <option value="$PROJECT_DIR$/read.go" />
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/test.go" />
-        <option value="$PROJECT_DIR$/test.go" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/config/cfg.yml" />
+        <option value="$PROJECT_DIR$/test.go" />
+        <option value="$PROJECT_DIR$/test.go" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -322,6 +533,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-508" />
+    <option name="y" value="405" />
     <option name="width" value="1940" />
     <option name="height" value="1100" />
   </component>
@@ -360,34 +573,7 @@
             <path>
               <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
               <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="gin-contrib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="gin-gonic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zk-go-release" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="github.com" type="462c0819:PsiDirectoryNode" />
-              <item name="samuel" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zk-go-release" type="b2602c69:ProjectViewProjectNode" />
@@ -408,8 +594,8 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/go/src/zk-go-release" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Rainbow Brackets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -492,12 +678,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build test.go (2)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="zkgo" />
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="zk-go-release" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="zk-go-release" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -529,18 +716,18 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build test.go" />
-      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build test.go (1)" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="Go Build.go build test.go (2)" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build test.go (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="Go Build.go build test.go" />
         <item itemvalue="Go Build.go build test.go (1)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -555,20 +742,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989712" visible="true" weight="0.14818764" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989712" visible="true" weight="0.15458423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50102884" side_tool="true" weight="0.18283582" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.24794239" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.2355967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921812" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49840087" visible="true" weight="0.33230454" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49840087" weight="0.33230454" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.33230454" />
       <window_info anchor="bottom" id="REST Client" order="11" weight="0.35152838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -608,31 +796,25 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go</url>
+          <url>file://$PROJECT_DIR$/../github.com/gin-gonic/gin/context.go</url>
           <line>757</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/templates/index.html</url>
-          <line>71</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/render/json.go" />
-    <entry file="file://$USER_HOME$/go/src/github.com/samuel/go-zookeeper/zk/conn.go" />
+    <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/render/json.go" />
+    <entry file="file://$PROJECT_DIR$/../github.com/samuel/go-zookeeper/zk/conn.go" />
     <entry file="file://C:/Go/src/builtin/builtin.go" />
     <entry file="file://G:/practice/first.go" />
     <entry file="file://G:/practice/rountine.go" />
-    <entry file="file://$USER_HOME$/go/src/github.com/samuel/go-zookeeper/zk/structs.go" />
+    <entry file="file://$PROJECT_DIR$/../github.com/samuel/go-zookeeper/zk/structs.go" />
     <entry file="file://C:/Go/src/net/http/server.go" />
     <entry file="file://C:/Go/src/runtime/map_faststr.go" />
     <entry file="file://$PROJECT_DIR$/test.dat" />
     <entry file="file://C:/Go/src/strings/strings.go" />
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/utils.go">
+    <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/utils.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
@@ -640,8 +822,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read.go" />
-    <entry file="file://$PROJECT_DIR$/main.go" />
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/routergroup.go">
+    <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/routergroup.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3652">
           <caret line="171" column="26" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="26" />
@@ -649,17 +830,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Stastic/jquery-1.9.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Godeps/Readme" />
+    <entry file="file://$PROJECT_DIR$/Godeps/Godeps.json" />
+    <entry file="file://$PROJECT_DIR$/test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="2860">
+          <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#14#178#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Godeps/Readme" />
-    <entry file="file://$PROJECT_DIR$/Godeps/Godeps.json" />
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/recovery.go">
+    <entry file="file://$PROJECT_DIR$/config/cfg.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/recovery.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
@@ -680,14 +872,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/render/html.go">
+    <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/render/html.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/gin-gonic/gin/context.go">
+    <entry file="file://$PROJECT_DIR$/../github.com/gin-gonic/gin/context.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2002">
           <caret line="107" selection-start-line="107" selection-end-line="107" />
@@ -711,28 +903,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#1111#1131#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="333">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="73" column="43" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="43" />
+        <state relative-caret-position="465">
+          <caret line="104" column="24" lean-forward="true" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
           <folding>
             <element signature="e#14#178#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/cfg.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
