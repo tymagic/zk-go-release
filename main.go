@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"io"
 	"net/http"
+	"zk-go-release/handler"
 
 	//"encoding/json"
 	"fmt"
@@ -23,7 +24,7 @@ import (
 // }
 var infos map[string]interface{}
 var block []string
-
+var config=handler.Config.GetConf() //加载配置文件
 //写入临时文件函数
 func write_tmp(fileName,strs string){
 	dstFile,_ := os.Create(fileName)
@@ -47,6 +48,13 @@ func Serach_content(value string) ([]string,error){   //内容查询
 		}
 		val := string(a)
 		//遍历数组替换字符串,屏蔽password,屏蔽其他字符直接
+		//需要屏蔽的key写在block数组中,从配置文件获取
+		Filter:=config.Filter
+		block = []string{}
+		for i:=0;i<len(Filter);i++{
+			fmt.Println(Filter[i])
+			block=append(block,Filter[i])
+		}
 		for _, blocks := range block {
 			if strings.Contains(val, blocks) {
 				rule := blocks + ".+"
@@ -54,9 +62,9 @@ func Serach_content(value string) ([]string,error){   //内容查询
 				result := blocks + "=******"
 				val = reg.ReplaceAllString(val, result)
 			}
-			result_array = append(result_array, val)
-		}
 
+		}
+		result_array = append(result_array, val)
 	}
 	//遍历数组替换字符串,屏蔽password,屏蔽其他字符直接
 	return result_array,nil
@@ -67,11 +75,13 @@ func Search(uri string) (map[string]interface{},error,bool) {
 	if tmp_str == "/"{
 		uri=string(uri[0:len(uri)-1])
 	}
-	//需要屏蔽的key写在block数组中
-	block = []string{"unipay_server_callback_url", "unipay_pay_url"}
+
 	//map 需要在函数里初始化，如下
 	infos := make(map[string]interface{})
-	var hosts = []string{"192.168.1.34:9090"}
+
+	zkaddress:=config.Address
+	fmt.Println("ZK地址",string(zkaddress))
+	var hosts = []string{zkaddress}
 	conn, _, err := zk.Connect(hosts, time.Second*5)
 	if err != nil {
 		fmt.Println(err)
@@ -140,5 +150,5 @@ func main() {
 		})
 	})
 
-	router.Run(":8001") // listen and serve on 0.0.0.0:8080
+	router.Run(":8002") // listen and serve on 0.0.0.0:8002
 }

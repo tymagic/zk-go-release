@@ -58,7 +58,7 @@
         e.preventDefault();  //阻止默认提交
         var command = $("#inputs").val(); // 注意，jquery筛选一定加引号，否则报错uncaught
         $.ajax({
-            url: "http://127.0.0.1:8001/zkgo",
+            url: "http://127.0.0.1:8002/zkgo",
             type: "POST",
             data: {
                 "location": command,
